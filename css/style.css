@@ -42,6 +42,12 @@ h3 {
     line-height: 34px;
 }
 
+h4 {
+    font-size: 16px;
+    line-height: 38px;
+    font-weight: 400;
+}
+
 span {
     font-size: 14px;
 }
@@ -274,4 +280,57 @@ p {
     grid-template-rows: auto;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 91px;
+}
+
+.deation__title {
+    margin-bottom: 20px;
+}
+
+.started {
+    padding-top: 56px;
+}
+
+.letsMake {
+    position: relative;
+    width: 85%;
+    padding-right: 186px;
+    height: 362px;
+    left: -150px;
+    background: #FAFAFA;
+    box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+    bottom: -113px;
+}
+
+.letsMake__text {}
+
+.wrap-footer {
+    min-height: 920px;
+    background-color: #4F553D;
+}
+
+.footer {
+    flex-direction: column;
+}
+
+.footer__contact {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 237px);
+}
+
+.footer__body {
+    display: flex;
+    padding: 60px 0;
+    border-top: 1px solid #5D6544;
+    margin-top: 60px;
+}
+.footer__title{
+    color: #FFFFFF;
+}
+.footer__list{
+    
+    color: #B6C197;
+}
+.icons{
+    padding-top: 33px;
 }
